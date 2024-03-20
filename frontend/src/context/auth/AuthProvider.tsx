@@ -26,7 +26,7 @@ const AuthProvider = (props: any) => {
 
   const [state, dispatch] = useReducer(AuthReducer, initialState);
 
-  const url = "http://localhost:3001"; //or 'http://localhost:3001';
+  const url = "https://todo-list-sandy-pi.vercel.app"; //or 'http://localhost:3001';
 
   // Set token and load user
   const loadUser = async () => {
